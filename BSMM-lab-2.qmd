@@ -39,7 +39,8 @@ the_tate %>%
 ```
 
 ```{r}
-
+the_tate %>% DataExplorer::introduce()
+the_tate %>% DataExplorer::plot_missing()
 ```
 
 The `the_tate` dataset has \_\_\_ unique artists who worked from \_\_\_ to \_\_\_. The works were acquired between the years \_\_\_ and \_\_\_.
